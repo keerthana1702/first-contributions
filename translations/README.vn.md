@@ -4,11 +4,11 @@
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
 *Người dịch: [Tran Ly Vu](https://github.com/tranlyvu)*
-*Người chỉnh sửa: [Phuc Cai](https://github.com/hoangphuc05)* 
+*Người chỉnh sửa: [Phuc Cai](https://github.com/hoangphuc05)*
 
 # Những đóng góp đầu tiên
 
-Lần đầu tiên bạn làm điều gì đó có thể gặp nhiều trở ngại. Đặc biệt khi bạn đang cộng tác, sai lầm là điều rất khó tránh khỏi. Chúng tôi muốn đơn giản hóa quy trình học và đóng góp vào những dự án mở. 
+Lần đầu tiên bạn làm điều gì đó có thể gặp nhiều trở ngại. Đặc biệt khi bạn đang cộng tác, sai lầm là điều rất khó tránh khỏi. Chúng tôi muốn đơn giản hóa quy trình học và đóng góp vào những dự án mở.
 
 Việc đọc hướng dẫn có tác dụng, nhưng có gì tốt hơn là thực sự đóng góp trong môi trường thực tiễn? Dự án này là nhằm mục đích cung cấp sự hướng dẫn và đơn giản hóa cách thức những người mới tham gia đóng góp. Nếu bạn mong muốn thực hiện việc đóng góp đầu tiên của mình, chỉ cần làm theo các bước đơn giản bên dưới.
 
@@ -30,7 +30,7 @@ Bây giờ sao chép kho mã nguồn này vào máy của bạn. Nhấn vào nú
 
 Mở một bộ xử lý terminal và chạy lệnh git sau đây:
 
-```
+```bash
 git clone "url bạn vừa sao chép"
 ```
 Trong đó "url bạn vừa sao chép" (không có dấu ngoặc kép) là url dẫn vào kho mã nguồn này. Xem các bước trước đó để có được url.
@@ -38,7 +38,7 @@ Trong đó "url bạn vừa sao chép" (không có dấu ngoặc kép) là url d
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
 Ví dụ:
-```
+```bash
 git clone https://github.com/tên-bạn/first-contributions.git
 ```
 Trong đó `tên-bạn` là tên người dùng github của bạn. Ở đây bạn đang sao chép nội dung của kho mã nguồn "first-contributions" trong github vào máy tính của bạn
@@ -47,23 +47,23 @@ Trong đó `tên-bạn` là tên người dùng github của bạn. Ở đây b�
 
 Thay đổi môi trường làm việc bằng thư mục của kho mã nguồn trên máy tính của bạn.
 
-```
+```bash
 cd first-contributions
 ```
 Bây giờ tạo ra một chi nhánh sử dụng lệnh `git checkout`
-```
+```bash
 git checkout -b <tên-chi-nhánh>
 ```
 
 Ví dụ:
-```
+```bash
 git checkout -b thêm-Tran-Ly-Vu
 ```
 (Tên của chi nhánh không cần phải có từ *thêm* trong đó, nhưng nó được dùng vì mục đích của chi nhánh này là thêm tên của bạn vào danh sách.)
 
 ## Thực hiện những thay đổi cần thiết và chấp nhận những thay đổi này
 
-Bây giờ mở tập tin `Contributors.md` trong một trình soạn thảo văn bản và thêm tên của mình vào nó. 
+Bây giờ mở tập tin `Contributors.md` trong một trình soạn thảo văn bản và thêm tên của mình vào nó.
 Đừng thêm vào đầu hoặc cuối tập tin. Thêm vào bất cứ nơi nào ở giữa. Bây giờ, lưu tập tin.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
@@ -72,12 +72,12 @@ Nếu bạn vào thư mục hiện tại của project và thực hiện lệnh 
 
 Thêm những thay đổi vào chi nhánh bạn vừa tạo bằng lệnh `git add`:
 
-```
+```bash
 git add Contributors.md
 ```
 
 Bây giờ chấp nhận những thay đổi bằng cách sử dụng dòng lệnh `git commit` dưới đây.
-```
+```bash
 git commit -m "Them <ten-ban> vào danh sách Cộng tác viên"
 ```
 
@@ -86,7 +86,7 @@ Thay thế `<ten-ban>` với tên của bạn
 ## Đẩy thay đổi lên github
 
 Đẩy những thay đổi của bạn sử dụng `git push`
-```
+```bash
 git push origin <tên-chi-nhánh>
 ```
 Thay thế `<tên-chi-nhánh>` với tên của chi nhánh bạn tạo ra trước đó
@@ -117,7 +117,6 @@ Bạn có thể tham gia slack của chúng tôi trong trường hợp bạn c�
 
 ## Hướng dẫn sử dụng các công cụ khác
 
-| <a href="../gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="../gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg" width=100></a> | <a href="../gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="../gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/512px-IntelliJ_IDEA_Icon.svg.png" width=100></a> |
+| <a href="../gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="../gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/gitkraken-tutorial/gk-icon.png" width="100"></a> | <a href="../gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100></a> | <a href="../gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="../gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/512px-IntelliJ_IDEA_Icon.svg.png" width=100></a> |
 | --- | --- | --- | --- | --- | --- |
 | [GitHub Desktop](../gui-tool-tutorials/github-desktop-tutorial.md) | [Visual Studio 2017](../gui-tool-tutorials/github-windows-vs2017-tutorial.md) | [GitKraken](../gui-tool-tutorials/gitkraken-tutorial.md) | [Visual Studio Code](../gui-tool-tutorials/github-windows-vs-code-tutorial.md) | [Atlassian Sourcetree](../gui-tool-tutorials/sourcetree-macos-tutorial.md) | [IntelliJ IDEA](../gui-tool-tutorials/github-windows-intellij-tutorial.md) |
-
